@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T22:40:42 IST" name="Open Cart Regression Suite" finished-at="2024-07-30T22:42:07 IST" duration-ms="84638">
+    <groups>
+    </groups>
+    <test started-at="2024-07-30T22:40:42 IST" name="Login Page Test chrome" finished-at="2024-07-30T22:41:06 IST" duration-ms="23623">
+      <class name="com.qa.fdc.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.fdc.tests.LoginPageTest@fe87ddd]" started-at="2024-07-30T22:40:42 IST" name="setup" finished-at="2024-07-30T22:40:58 IST" duration-ms="15890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitle()[pri:1, instance:com.qa.fdc.tests.LoginPageTest@fe87ddd]" started-at="2024-07-30T22:40:58 IST" name="loginPageTitle" finished-at="2024-07-30T22:41:00 IST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitle -->
+        <test-method signature="currentPageURLTest()[pri:2, instance:com.qa.fdc.tests.LoginPageTest@fe87ddd]" started-at="2024-07-30T22:41:01 IST" name="currentPageURLTest" finished-at="2024-07-30T22:41:01 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentPageURLTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.qa.fdc.tests.LoginPageTest@fe87ddd]" started-at="2024-07-30T22:41:01 IST" name="forgotPwdLinkTest" finished-at="2024-07-30T22:41:02 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="loginTest()[pri:4, instance:com.qa.fdc.tests.LoginPageTest@fe87ddd]" started-at="2024-07-30T22:41:02 IST" name="loginTest" finished-at="2024-07-30T22:41:05 IST" duration-ms="3042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.fdc.tests.LoginPageTest@fe87ddd]" started-at="2024-07-30T22:41:05 IST" name="tearDown" finished-at="2024-07-30T22:41:06 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.fdc.tests.LoginPageTest -->
+    </test> <!-- Login Page Test chrome -->
+    <test started-at="2024-07-30T22:41:07 IST" name="Accounts Page Test_chrome" finished-at="2024-07-30T22:41:20 IST" duration-ms="13724">
+      <class name="com.qa.fdc.tests.AccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.fdc.tests.AccountPageTest@71a3e05c]" started-at="2024-07-30T22:41:07 IST" name="setup" finished-at="2024-07-30T22:41:16 IST" duration-ms="9431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.qa.fdc.tests.AccountPageTest@71a3e05c]" started-at="2024-07-30T22:41:16 IST" name="accSetup" finished-at="2024-07-30T22:41:19 IST" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accSetup -->
+        <test-method signature="acountPageURLTest()[pri:0, instance:com.qa.fdc.tests.AccountPageTest@71a3e05c]" started-at="2024-07-30T22:41:19 IST" name="acountPageURLTest" finished-at="2024-07-30T22:41:19 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acountPageURLTest -->
+        <test-method signature="headerListTest()[pri:0, instance:com.qa.fdc.tests.AccountPageTest@71a3e05c]" started-at="2024-07-30T22:41:19 IST" name="headerListTest" finished-at="2024-07-30T22:41:19 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerListTest -->
+        <test-method signature="linkExistTest()[pri:0, instance:com.qa.fdc.tests.AccountPageTest@71a3e05c]" started-at="2024-07-30T22:41:19 IST" name="linkExistTest" finished-at="2024-07-30T22:41:20 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkExistTest -->
+        <test-method signature="logoutLinkTest()[pri:0, instance:com.qa.fdc.tests.AccountPageTest@71a3e05c]" started-at="2024-07-30T22:41:20 IST" name="logoutLinkTest" finished-at="2024-07-30T22:41:20 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.fdc.tests.AccountPageTest@71a3e05c]" started-at="2024-07-30T22:41:20 IST" name="tearDown" finished-at="2024-07-30T22:41:20 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.fdc.tests.AccountPageTest -->
+    </test> <!-- Accounts Page Test_chrome -->
+    <test started-at="2024-07-30T22:41:21 IST" name="Home Page Test_chrome" finished-at="2024-07-30T22:41:29 IST" duration-ms="8158">
+      <class name="com.qa.fdc.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.fdc.tests.HomePageTest@62c72501]" started-at="2024-07-30T22:41:21 IST" name="setup" finished-at="2024-07-30T22:41:28 IST" duration-ms="7396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.fdc.tests.HomePageTest@62c72501]" started-at="2024-07-30T22:41:28 IST" name="tearDown" finished-at="2024-07-30T22:41:29 IST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.fdc.tests.HomePageTest -->
+    </test> <!-- Home Page Test_chrome -->
+    <test started-at="2024-07-30T22:41:29 IST" name="Product Info Page Test_chrome" finished-at="2024-07-30T22:41:50 IST" duration-ms="21549">
+      <class name="com.qa.fdc.tests.ProductInfoPagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.fdc.tests.ProductInfoPagetest@3850e90c]" started-at="2024-07-30T22:41:29 IST" name="setup" finished-at="2024-07-30T22:41:39 IST" duration-ms="10444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.qa.fdc.tests.ProductInfoPagetest@3850e90c]" started-at="2024-07-30T22:41:39 IST" name="accSetup" finished-at="2024-07-30T22:41:43 IST" duration-ms="3509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accSetup -->
+        <test-method signature="headerTest()[pri:0, instance:com.qa.fdc.tests.ProductInfoPagetest@3850e90c]" started-at="2024-07-30T22:41:43 IST" name="headerTest" finished-at="2024-07-30T22:41:46 IST" duration-ms="2851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTest -->
+        <test-method signature="imageCounTest()[pri:0, instance:com.qa.fdc.tests.ProductInfoPagetest@3850e90c]" started-at="2024-07-30T22:41:46 IST" name="imageCounTest" finished-at="2024-07-30T22:41:47 IST" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageCounTest -->
+        <test-method signature="productInfoTest()[pri:0, instance:com.qa.fdc.tests.ProductInfoPagetest@3850e90c]" started-at="2024-07-30T22:41:48 IST" name="productInfoTest" finished-at="2024-07-30T22:41:50 IST" duration-ms="2005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.fdc.tests.ProductInfoPagetest@3850e90c]" started-at="2024-07-30T22:41:50 IST" name="tearDown" finished-at="2024-07-30T22:41:50 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.fdc.tests.ProductInfoPagetest -->
+    </test> <!-- Product Info Page Test_chrome -->
+    <test started-at="2024-07-30T22:41:51 IST" name="Search Result Page Test_chrome" finished-at="2024-07-30T22:42:07 IST" duration-ms="16015">
+      <class name="com.qa.fdc.tests.SearchResultTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:41:51 IST" name="setup" finished-at="2024-07-30T22:41:59 IST" duration-ms="8663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SearchResultPageTest()[pri:0, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:41:59 IST" name="SearchResultPageTest" finished-at="2024-07-30T22:42:01 IST" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResultPageTest -->
+        <test-method signature="searchResultCountTest(java.lang.String,int)[pri:0, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:42:01 IST" name="searchResultCountTest" data-provider="getproductCountdata" finished-at="2024-07-30T22:42:02 IST" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultCountTest -->
+        <test-method signature="searchResultCountTest(java.lang.String,int)[pri:0, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:42:02 IST" name="searchResultCountTest" data-provider="getproductCountdata" finished-at="2024-07-30T22:42:03 IST" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultCountTest -->
+        <test-method signature="searchResultCountTest(java.lang.String,int)[pri:0, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:42:03 IST" name="searchResultCountTest" data-provider="getproductCountdata" finished-at="2024-07-30T22:42:05 IST" duration-ms="1762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultCountTest -->
+        <test-method signature="urlTest()[pri:1, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:42:05 IST" name="urlTest" finished-at="2024-07-30T22:42:06 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method signature="titleTest()[pri:2, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:42:06 IST" name="titleTest" finished-at="2024-07-30T22:42:06 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="searchResultPageTest()[pri:3, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:42:06 IST" name="searchResultPageTest" finished-at="2024-07-30T22:42:06 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultPageTest -->
+        <test-method signature="productsCountTest()[pri:4, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:42:06 IST" name="productsCountTest" finished-at="2024-07-30T22:42:06 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsCountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.fdc.tests.SearchResultTest@4733f6f5]" started-at="2024-07-30T22:42:06 IST" name="tearDown" finished-at="2024-07-30T22:42:07 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.fdc.tests.SearchResultTest -->
+    </test> <!-- Search Result Page Test_chrome -->
+  </suite> <!-- Open Cart Regression Suite -->
+</testng-results>

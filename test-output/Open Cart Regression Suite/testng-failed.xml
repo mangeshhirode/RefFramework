@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Open Cart Regression Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <listeners>
+    <listener class-name="com.qa.fdc.listners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Login Page Test chrome(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.fdc.tests.LoginPageTest">
+        <methods>
+          <include name="forgotPwdLinkTest"/>
+          <include name="currentPageURLTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="loginPageTitle"/>
+        </methods>
+      </class> <!-- com.qa.fdc.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Page Test chrome(failed) -->
+  <test thread-count="1" parallel="tests" name="Accounts Page Test_chrome(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.fdc.tests.AccountPageTest">
+        <methods>
+          <include name="headerListTest"/>
+          <include name="linkExistTest"/>
+          <include name="logoutLinkTest"/>
+          <include name="tearDown"/>
+          <include name="acountPageURLTest"/>
+          <include name="accSetup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.fdc.tests.AccountPageTest -->
+    </classes>
+  </test> <!-- Accounts Page Test_chrome(failed) -->
+  <test thread-count="1" parallel="tests" name="Product Info Page Test_chrome(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.fdc.tests.ProductInfoPagetest">
+        <methods>
+          <include name="productInfoTest"/>
+          <include name="headerTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="imageCounTest"/>
+          <include name="accSetup"/>
+        </methods>
+      </class> <!-- com.qa.fdc.tests.ProductInfoPagetest -->
+    </classes>
+  </test> <!-- Product Info Page Test_chrome(failed) -->
+  <test thread-count="1" parallel="tests" name="Search Result Page Test_chrome(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.fdc.tests.SearchResultTest">
+        <methods>
+          <include name="SearchResultPageTest"/>
+          <include name="tearDown"/>
+          <include name="searchResultCountTest"/>
+          <include name="urlTest"/>
+          <include name="setup"/>
+          <include name="productsCountTest"/>
+          <include name="titleTest"/>
+          <include name="searchResultPageTest"/>
+        </methods>
+      </class> <!-- com.qa.fdc.tests.SearchResultTest -->
+    </classes>
+  </test> <!-- Search Result Page Test_chrome(failed) -->
+</suite> <!-- Failed suite [Open Cart Regression Suite] -->

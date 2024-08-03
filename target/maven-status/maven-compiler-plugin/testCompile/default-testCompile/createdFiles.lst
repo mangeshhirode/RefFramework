@@ -1,0 +1,6 @@
+com\qa\fdc\tests\AccountPageTest.class
+com\qa\fdc\tests\LoginPageTest.class
+com\qa\fdc\tests\SearchResultTest.class
+com\qa\fdc\tests\ProductInfoPagetest.class
+com\qa\fdc\base\BaseTest.class
+com\qa\fdc\tests\HomePageTest.class
